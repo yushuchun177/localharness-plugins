@@ -1,6 +1,6 @@
 # localharness-plugins
 
-Local-Harness 的插件索引（8 个）。
+Local-Harness 的插件索引（9 个）。
 
 主程序「设置 → 插件管理」读取 `index.json`，从各插件自己的仓库下载 zip 并部署到 `user://plugins/<id>/`。
 
@@ -13,4 +13,5 @@ Local-Harness 的插件索引（8 个）。
 | 截图 / Screenshot | [yushuchun177/localharness-plugin-screenshot](https://github.com/yushuchun177/localharness-plugin-screenshot) | 抓一张全屏截图存成 PNG，返回路径和分辨率（配合识图插件可以看图）。 |
 | 子智能体 / Sub-agent | [yushuchun177/localharness-plugin-subagent](https://github.com/yushuchun177/localharness-plugin-subagent) | 另起一个独立的模型实例，带着自己的系统提示去处理子任务，只把结果交回来。 |
 | 终端 / Terminal | [yushuchun177/localharness-plugin-terminal](https://github.com/yushuchun177/localharness-plugin-terminal) | 在 Windows 上执行命令，把标准输出和退出码返回给模型。带危险命令黑名单。 |
+| 识图 / Vision / OCR | [yushuchun177/localharness-plugin-vision](https://github.com/yushuchun177/localharness-plugin-vision) | 看图：读取图片信息、用系统 OCR 提取文字；如果配了视觉模型（GGUF + mmproj）就直接描述画面。 |
 | 网页搜索与获取 / Web search & fetch | [yushuchun177/localharness-plugin-web](https://github.com/yushuchun177/localharness-plugin-web) | 抓取网页正文（curl 转纯文本）和 DuckDuckGo 关键词搜索，把结果喂给模型。 |
