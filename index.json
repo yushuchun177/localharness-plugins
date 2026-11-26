@@ -2,6 +2,16 @@
   "version": 1,
   "plugins": [
     {
+      "id": "automation",
+      "name": "自动化任务",
+      "name_en": "Automation",
+      "version": "0.1.0",
+      "description": "定时/延时跑一句话任务，结果写进「自动化」会话。程序开着的时候生效。",
+      "description_en": "Schedule prompts (one-shot or repeating) and collect results in an \"Automation\" chat while the app runs.",
+      "repo": "yushuchun177/localharness-plugin-automation",
+      "zip": "https://codeload.github.com/yushuchun177/localharness-plugin-automation/zip/refs/heads/main"
+    },
+    {
       "id": "compact",
       "name": "智能压缩上下文",
       "name_en": "Smart compaction",
@@ -42,6 +52,26 @@
       "zip": "https://codeload.github.com/yushuchun177/localharness-plugin-memory/zip/refs/heads/main"
     },
     {
+      "id": "oar",
+      "name": "OAR 智能体",
+      "name_en": "OAR agent",
+      "version": "0.1.0",
+      "description": "把任务交给本机装的外部智能体命令行（codex / claude / ollama / llm…），拿回它的输出。",
+      "description_en": "Delegate a task to an external agent CLI installed on this machine (codex / claude / ollama / llm …) and return its output.",
+      "repo": "yushuchun177/localharness-plugin-oar",
+      "zip": "https://codeload.github.com/yushuchun177/localharness-plugin-oar/zip/refs/heads/main"
+    },
+    {
+      "id": "remote",
+      "name": "远程操作",
+      "name_en": "Remote",
+      "version": "0.1.0",
+      "description": "把本机变成一个任务端点（HTTP），或者把任务发给另一台开着 Local-Harness 的机器。",
+      "description_en": "Expose this machine as an HTTP task endpoint, or send tasks to another machine running Local-Harness.",
+      "repo": "yushuchun177/localharness-plugin-remote",
+      "zip": "https://codeload.github.com/yushuchun177/localharness-plugin-remote/zip/refs/heads/main"
+    },
+    {
       "id": "screenshot",
       "name": "截图",
       "name_en": "Screenshot",
@@ -80,6 +110,16 @@
       "description_en": "Image understanding: read image info, extract text with system OCR, or describe the picture when a vision GGUF + mmproj is configured.",
       "repo": "yushuchun177/localharness-plugin-vision",
       "zip": "https://codeload.github.com/yushuchun177/localharness-plugin-vision/zip/refs/heads/main"
+    },
+    {
+      "id": "voice",
+      "name": "语音输入",
+      "name_en": "Voice",
+      "version": "0.1.0",
+      "description": "朗读回答（Windows 中文语音）；也能录一段麦克风并尝试用系统语音识别转成文字。",
+      "description_en": "Speak answers aloud (Windows voices) and record the mic, transcribing it with the system speech recognizer when available.",
+      "repo": "yushuchun177/localharness-plugin-voice",
+      "zip": "https://codeload.github.com/yushuchun177/localharness-plugin-voice/zip/refs/heads/main"
     },
     {
       "id": "web",
