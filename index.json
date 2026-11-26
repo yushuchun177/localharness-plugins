@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "terminal",
+      "name": "终端",
+      "name_en": "Terminal",
+      "version": "0.1.0",
+      "description": "在 Windows 上执行命令并返回输出，带危险命令黑名单。",
+      "description_en": "Run commands on Windows and return output, with a dangerous-command denylist.",
+      "repo": "yushuchun177/localharness-plugin-terminal",
+      "zip": "https://codeload.github.com/yushuchun177/localharness-plugin-terminal/zip/refs/heads/main"
+    },
+    {
+      "id": "web",
+      "name": "网页搜索与获取",
+      "name_en": "Web search & fetch",
+      "version": "0.1.0",
+      "description": "抓取网页正文、DuckDuckGo 关键词搜索。",
+      "description_en": "Fetch page text and search DuckDuckGo.",
+      "repo": "yushuchun177/localharness-plugin-web",
+      "zip": "https://codeload.github.com/yushuchun177/localharness-plugin-web/zip/refs/heads/main"
+    },
+    {
+      "id": "memory",
+      "name": "记忆系统",
+      "name_en": "Memory",
+      "version": "0.1.0",
+      "description": "长期记忆：记住偏好与事实，按关键词检索，只存本机。",
+      "description_en": "Long-term memory: store facts and recall them by keyword, locally only.",
+      "repo": "yushuchun177/localharness-plugin-memory",
+      "zip": "https://codeload.github.com/yushuchun177/localharness-plugin-memory/zip/refs/heads/main"
+    }
+  ]
+}
