@@ -2,6 +2,16 @@
   "version": 1,
   "plugins": [
     {
+      "id": "compact",
+      "name": "智能压缩上下文",
+      "name_en": "Smart compaction",
+      "version": "0.1.0",
+      "description": "把较早的对话压成一条摘要，腾出上下文空间；摘要由模型自己写，插件负责安全地改历史。",
+      "description_en": "Replace early history with one summary to free context; the model writes the summary, the plugin rewrites history safely.",
+      "repo": "yushuchun177/localharness-plugin-compact",
+      "zip": "https://codeload.github.com/yushuchun177/localharness-plugin-compact/zip/refs/heads/main"
+    },
+    {
       "id": "control",
       "name": "操作电脑",
       "name_en": "Computer control",
@@ -40,6 +50,16 @@
       "description_en": "Capture a full-screen PNG and return its path and resolution (works with the vision plugin to read it).",
       "repo": "yushuchun177/localharness-plugin-screenshot",
       "zip": "https://codeload.github.com/yushuchun177/localharness-plugin-screenshot/zip/refs/heads/main"
+    },
+    {
+      "id": "subagent",
+      "name": "子智能体",
+      "name_en": "Sub-agent",
+      "version": "0.1.0",
+      "description": "另起一个独立的模型实例，带着自己的系统提示去处理子任务，只把结果交回来。",
+      "description_en": "Spawn a separate model instance with its own system prompt for a subtask, returning only the result.",
+      "repo": "yushuchun177/localharness-plugin-subagent",
+      "zip": "https://codeload.github.com/yushuchun177/localharness-plugin-subagent/zip/refs/heads/main"
     },
     {
       "id": "terminal",
