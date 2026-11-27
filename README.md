@@ -19,3 +19,9 @@ Local-Harness 的插件索引（13 个）。
 | 识图 / Vision / OCR | [yushuchun177/localharness-plugin-vision](https://github.com/yushuchun177/localharness-plugin-vision) | 看图：读取图片信息、用系统 OCR 提取文字；如果配了视觉模型（GGUF + mmproj）就直接描述画面。 |
 | 语音输入 / Voice | [yushuchun177/localharness-plugin-voice](https://github.com/yushuchun177/localharness-plugin-voice) | 朗读回答（Windows 中文语音）；也能录一段麦克风并尝试用系统语音识别转成文字。 |
 | 网页搜索与获取 / Web search & fetch | [yushuchun177/localharness-plugin-web](https://github.com/yushuchun177/localharness-plugin-web) | 抓取网页正文（curl 转纯文本）和 DuckDuckGo 关键词搜索，把结果喂给模型。 |
+
+---
+
+## 许可 / License
+
+GPL-3.0。完整协议文本见本仓库根目录的 [LICENSE](LICENSE)。
